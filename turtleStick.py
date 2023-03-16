@@ -1,4 +1,5 @@
 import turtle
+from tkinter import *
 
 t = turtle.Turtle()
 t.shape("turtle")
@@ -156,3 +157,9 @@ t.pendown()    ##
 t.left(150)
 t.forward(50)
 t.penup()      #
+
+# Save image---------------
+
+ts = turtle.getscreen()
+
+ts.getcanvas().postscript(file="turtleStick.eps")
