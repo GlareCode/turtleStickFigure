@@ -1,6 +1,6 @@
 # turtleStickFigure
 Python Turtle simple stick figure with one tooth
 
-# Running---------------------------------------
+# Running
 
 python ./turtleStick.py
